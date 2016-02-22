@@ -1,0 +1,10 @@
+server {
+  listen   <%= node['sre_tc_1a']['git']['custom_port'] %>;
+  server_name  <%= node['hostname'] %>;
+
+  access_log  <%= node['sre_tc_1a']['git']['log_dir'] %>/localhost.access.log;
+
+  location / {
+    proxy_pass <%= node['sre_tc_1a']['git']['proxy_pass'] %>; 
+  }
+}
