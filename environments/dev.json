@@ -1,0 +1,6 @@
+{
+  "name": "dev",
+  "cookbook_versions": {
+    "sre_tc_1a": "0.1.0"
+  }
+}

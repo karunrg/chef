@@ -1,0 +1,6 @@
+{
+  "name": "role-apacheweb",
+  "run_list": [
+    "recipe[awesome_customers_rhel]"
+  ]
+}

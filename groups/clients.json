@@ -1,0 +1,8 @@
+{
+  "name": "clients",
+  "clients": [
+    "chef_node1-validator",
+    "node1",
+    "node2"
+  ]
+}

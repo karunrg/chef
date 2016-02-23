@@ -1,0 +1,52 @@
+{
+  "create": {
+    "actors": [
+      "karun123",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "read": {
+    "actors": [
+      "karun123",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "karun123",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "karun123",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "karun123",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}
