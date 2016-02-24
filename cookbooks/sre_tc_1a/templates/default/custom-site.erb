@@ -1,10 +1,20 @@
 server {
-  listen   <%= node['sre_tc_1a']['git']['custom_port'] %>;
+  <% if @port  != 80 %>
+  listen   <%= @port %>;
+  <% end %>
   server_name  <%= node['hostname'] %>;
 
-  access_log  <%= node['sre_tc_1a']['git']['log_dir'] %>/localhost.access.log;
+  access_log  <%= node['nginx']['log_dir'] %>/<%= @site_name %>/localhost.access.log;
 
+  <% if @port  == 8000 %>
   location / {
     proxy_pass <%= node['sre_tc_1a']['git']['proxy_pass'] %>; 
   }
+  <% else %>
+  location / {
+    root   <%= node['nginx']['default_root'] %>/<%= @site_name %>;
+    index  index.html index.htm;
+  }
+  <% end %>
 }
+

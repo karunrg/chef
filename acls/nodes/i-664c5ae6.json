@@ -1,0 +1,53 @@
+{
+  "create": {
+    "actors": [
+      "i-664c5ae6",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "read": {
+    "actors": [
+      "i-664c5ae6",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "i-664c5ae6",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "i-664c5ae6",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "i-664c5ae6",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}

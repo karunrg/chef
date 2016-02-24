@@ -1,0 +1,6 @@
+{
+  "name": "i-664c5ae6",
+  "run_list": [
+    "role[role-nginxweb]"
+  ]
+}

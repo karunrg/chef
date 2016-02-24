@@ -2,7 +2,7 @@
   "name": "prod",
   "description": "",
   "cookbook_versions": {
-    "sre_tc_1a": "0.1.1"
+    "sre_tc_1a": "0.2.0"
   },
   "json_class": "Chef::Environment",
   "chef_type": "environment",

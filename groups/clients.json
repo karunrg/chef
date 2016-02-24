@@ -3,6 +3,8 @@
   "clients": [
     "chef_node1-validator",
     "node1",
-    "node2"
+    "node2",
+    "i-664c5ae6",
+    "i-55cbeecd"
   ]
 }
